@@ -1,0 +1,492 @@
+/* -- RESETS -- */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+body{
+	background-color: white;
+	margin: 0;
+}
+h4{
+	font-family: 'Open Sans', Sans-Serif;
+	font-weight: 400;
+}
+h2, h1{
+	font-size: 40px;
+	font-family: 'Open Sans', Sans-Serif;
+	font-weight: 300;
+}
+p{
+	font-size: 18px;
+	font-family: 'Open Sans', Sans-Serif;
+	font-weight: 300;
+}
+#navbar{
+	position: relative;
+	background-color: white;
+	padding: 1% 0;
+	z-index: 500;
+	box-shadow:	0px 3px 5px 0 rgb(37, 114, 157);
+}
+#efheader{
+	margin-left: 10%;
+	width: 17.5%;
+	display: inline;
+}
+#candado{
+	display: inline;
+}
+#candadosvg{
+	width: 11%;
+	margin-top: -0.2%;
+	margin-left: 2%;
+}
+#boton{
+	margin-left: 37%;
+	border-right: solid 1px rgb(240, 240, 240);
+	padding-right: 3%;
+	display: inline;
+}
+/* BOTON */
+.btn-no-border{
+	border: none;
+}
+.btn-success {
+    box-shadow: 0 0 0 #64a70b inset;
+    background: rgb(228, 51, 42);
+}
+.btn-success:hover {
+    box-shadow: 0 0 0 rgb(228, 51, 42) inset;
+    background: rgb(228, 51, 42);
+    border: none;
+}
+.btn-success:focus {
+    background: rgb(228, 51, 42) !important;
+    box-shadow: 0 0 0 #5e9e0b inset;
+    border: none;
+}
+.btn {
+    display: inline;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 10px 18px;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#navbar a, #navbar a:active, #navbar a:focus {
+    outline: none;
+}
+/* FIN BOTON */
+#auxli{
+	display: inline;
+}
+.cleaner{
+	clear: both;
+}
+#cleansection{
+	margin-top: 0;
+	padding: 0;
+	padding-bottom: 1%;
+	background: none; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: 50% 0;
+	height: 100%;
+	overflow: auto;
+}
+/* --------------- */
+/* ESTILOS CONTENEDOR 1 */
+section{
+	margin-top: 0;
+	padding: 4% 17.5% 4%;
+	background-color: rgb(47, 145, 199);
+	background-position: 50% 0;
+	height: 100%;
+}
+#contenedor1 h1{
+	color: white;
+	text-align: center;
+}
+#buenosairessvg{
+	width: 100%;
+	margin-bottom: -28.2%;
+}
+/* FIN ESTILOS CONTENEDOR 1 */
+/* ESTILOS CONTENEDOR 2*/
+#contenedor2{
+	display: block;
+	margin: 0;
+	padding: 0 17.5% 10%;
+	margin-top: 17%;
+}
+#contenedor2 h2{
+	font-size: 24px;
+	color: rgb(16, 100, 134);
+	font-weight: 600;
+	text-align: center;
+	padding-bottom: 2%;
+}
+#contenedor2 #parrafo{
+	font-size: 15px;
+	color: rgb(150, 150, 150);
+}
+#auxticketlovers{
+	text-align: center;
+	padding: 1.5% 0;
+}
+#ticketlovers{
+	width: 35%;
+}
+/* FIN ESTILOS CONTENEDOR 2 */
+/* DISPOCISION DE COLUMNAS */
+.columnas1{
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 30px; /* Firefox */
+    column-gap: 30px;
+    padding-bottom: 2%;
+}
+.columnas2{
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+/* ---------------------- */
+/* ESTILOS CONTENEDOR 3 */
+#contenedor3{
+	display: block;
+	margin: 0;
+	padding: 1.5% 0 2%;
+	background-color: rgb(116, 189, 39);
+	background-image: url("../images/pattern-candado-01.png");
+	color: white;
+	font-family: 'Open Sans', Sans-Serif;
+	text-align: center;
+}
+#contenedor3 h2{
+	font-weight: 600;
+	font-size: 36px;
+}
+#segurosvg{
+	width: 15%;
+	margin-top: -12%;
+}
+/* FIN ESTILOS CONTENEDOR 3 */
+/* ESTILOS CONTENEDOR 4 */
+#contenedor4{
+	padding: 2% 17.5% 11.5%;
+	margin-bottom: -2.5%;
+}
+#contenedor4 p{
+	color: rgb(150, 150, 150);
+	font-size: 15px;
+	font-family: 'Open Sans', Sans-Serif;
+	font-weight: 300;
+}
+/* FIN ESTILOS CONTENEDOR 4 */
+/* ESTILOS CONTENEDOR 5 */
+#envioticketssvg{
+	width: 35%;
+	margin-top: -9.5%;
+}
+#contenedor51{
+	background-color: rgb(128, 97, 200);
+	margin: 0;
+	text-align: center;
+	padding: 2% 0;
+}
+#contenedor51 h2{
+	font-size: 36px;
+	font-family: 'Open Sans', Sans-Serif;
+	font-weight: 600;
+	color: white;
+}
+/* DIVISION */
+#contenedor52{
+	display: block;
+	margin: 0;
+	padding: 2% 17.5%;
+}
+#contenedor52 p{
+	font-size: 15px;
+	color: rgb(150, 150, 150);
+}
+/* FIN ESTILOS CONTENEDOR 5 */
+/* ESTILOS CONTENEDOR 6 */
+#contenedor6{
+	background-color: rgb(245, 245, 245);
+	margin-bottom: 0;
+	text-align: center;
+	padding: 0 17.5% 8%;
+}
+#icon100{
+	width: 15%;
+}
+#borderabajo{
+	border-bottom: solid 1px rgb(47, 145, 199);
+	padding: 2% 0;
+}
+#txt100{
+	font-size: 16px;
+	font-family: 'Open Sans', Sans-Serif;
+	font-weight: 600;
+	color: rgb(47, 145, 199);
+	letter-spacing: 2px;
+}
+#numerosabajo{
+	padding: 2% 0;
+	margin: 0;
+}
+#txtnum{
+	color: rgb(1, 53, 100);
+	font-size: 36px;
+	font-family: 'Open Sans', Sans-Serif;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.visibleres{
+	display: none;
+}
+/* FIN ESTILOS CONTENEDOR 6 */
+/* ESTILOS CONTENEDOR GAME */
+#contenedorjuego{
+	background: black;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	width: 100%;
+}
+#fondogame{
+	padding: 0 30% 2%;
+	background: url("../images/pattern-arcade-01.png");
+	background-color: rgb(243, 180, 0);
+	margin-top: 0;
+}
+#fondogame h2{
+	margin: 0;
+	padding-top: 2%;
+	text-align: center;
+	font-size: 36px;
+	font-family: 'Open Sans', Sans-Serif;
+	font-weight: 600;
+	color: white;
+}
+#arcadeefdiv{
+	text-align: center;
+}
+#arcadeef{
+	width: 30%;
+	margin-top: -17%;
+}
+/* FIN ESTILOS CONTENEDOR GAME */
+/* ESTILOS NUEVO FOOTER */
+.footernuevo{
+	background-color: rgb(42, 49, 61);
+	color: rgb(188, 190, 192);
+	text-align: center;
+	padding-top: 3%;
+}
+.footernuevo img{
+	width: 20%;
+	border-right: solid 1px rgb(188, 190, 192);
+	padding-right: 3%;
+	display: inline;
+}
+.footernuevo p{
+	display: inline;
+	padding-left: 5%;
+	font-size: 14px;
+}
+.footernuevo a{
+	color: rgb(188, 190, 192);
+}
+.footernuevo a:hover{
+	color: rgb(188, 190, 192);
+}
+#textocopyright{
+	color: rgb(66, 79, 91);
+	font-size: 12px;
+}
+/* FIN ESTILOS NUEVO FOOTER */
+@media (max-width: 430px){
+/* ESTILOS NAVBAR */
+	#navbar{
+		text-align: center;
+	}
+	#efheader{
+		margin-left: 0;
+		width: 50%;
+		display: inline;
+		text-align: center;
+		padding-top: 1%;
+	}
+	#candado{
+		display: inline;
+	}
+	#candado p{
+		display: inline;
+		color: rgb(79, 150, 208);
+		font-size: 16px;
+		border-bottom: dotted 1px rgb(79, 150, 208);
+	}
+	#candadosvg{
+		width: 35%;
+		margin-top: -1%;
+	}
+	#boton{
+		text-align: center;
+		margin-left: 0;
+		border-right: solid 1px rgb(240, 240, 240);
+		padding-right: 1%;
+		display: inline;
+	}
+/* FIN ESTILOS NAVBAR */
+/* ESTILOS FOOTER */
+/* ESTILOS NUEVO FOOTER */
+	.footernuevo{
+		background-color: rgb(42, 49, 61);
+		color: rgb(188, 190, 192);
+		text-align: center;
+		padding-top: 3%;
+	}
+	.footernuevo img{
+		width: 40%;
+		border-right: none;
+		padding-right: 0;
+		display: inline;
+	}
+	.footernuevo p{
+		display: inline;
+		padding-left: 0;
+		font-size: 14px;
+	}
+/* FIN ESTILOS NUEVO FOOTER */
+/* FIN ESTILOS FOOTER */
+/* ESTILOS CONTENEDOR 1 */
+	#contenedor1{
+		padding: 3.5% 10% 3.5%;
+	}
+	#contenedor1 h1{
+		color: white;
+		text-align: center;
+	}
+/* ESTILOS CONTENEDOR 2*/
+	#contenedor2{
+		display: block;
+		margin: 0;
+		padding: 15% 5% 23%;
+	}
+	#contenedor2 h3{
+		font-size: 20px;
+		color: rgb(233, 95, 88);
+		font-weight: 600;
+	}
+	#contenedor2 p{
+		font-size: 15px;
+		color: rgb(150, 150, 150);
+	}
+	#ticketlovers{
+		width: 65%;
+	}
+/* DISPOCISION DE LAS COLUMNAS */
+	.columnas1{
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	    -moz-column-count: 1; /* Firefox */
+	    column-count: 1;
+	    -webkit-column-gap: 0; /* Chrome, Safari, Opera */
+	    -moz-column-gap: 0; /* Firefox */
+    	column-gap: 0;
+    	padding-bottom: 2%;
+	}
+	.columnas2{
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	    -moz-column-count: 1; /* Firefox */
+	    column-count: 1;
+	    -webkit-column-gap: 0; /* Chrome, Safari, Opera */
+	    -moz-column-gap: 0; /* Firefox */
+    	column-gap: 0;
+    	padding-bottom: 2%;
+	}
+/* ESTILOS CONTENEDOR 3 */
+	#segurosvg{
+		width: 40%;
+		margin-top: -30%;
+	}
+	#contenedor3 h2{
+		padding-bottom: 1.5%;
+		padding: 0 3%;
+	}
+	#contenedor3 p{
+		padding: 0% 5%;
+	}
+/* ESTILOS CONTENEDOR 4 */
+	#contenedor4{
+		padding: 0 5% 10%;
+	}
+	#contenedor4 p{
+		padding: 3% 0;
+	}
+/* ESTILOS CONTENEDOR 5 */
+	#envioticketssvg{
+		width: 70%;
+		margin-top: -11.5%;
+	}
+	#contenedor51{
+		background-color: rgb(128, 97, 200);
+		margin: 0;
+		text-align: center;
+		padding: 2% 0;
+	}
+	#contenedor51 h2{
+		font-size: 36px;
+		font-family: 'Open Sans', Sans-Serif;
+		font-weight: 600;
+		color: white;
+	}
+	/* DIVISION */
+	#contenedor52{
+		display: block;
+		margin: 0;
+		padding: 2% 5%;
+	}
+	#contenedor52 p{
+		font-size: 15px;
+		color: rgb(150, 150, 150);
+	}
+/* FIN ESTILOS CONTENEDOR 5 */
+/* ESTILOS CONTENEDOR 6 */
+	#contenedor6{
+		padding: 3% 20% 3%;
+	}
+	.visibleres{
+		display: inherit;
+	}
+	.invisibleres{
+		display: none;
+	}
+	#icon100{
+		width: 20%;
+	}
+/* FIN ESTILOS CONTENEDOR 6 */
+/* ESTILOS CONTENEDOR GAME */
+	#fondogame{
+		display: none;
+	}
+/* FIN ESTILOS CONTENEDOR GAME */
+};
